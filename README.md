@@ -1,2 +1,22 @@
-# DP83848-Ethernet-Board
-记录移植DP83848从client客户端到server服务端的过程
+# DP83848-Ethernet-Board    
+记录移植DP83848从client客户端到server服务端的过程    
+
+为什么要移植？   
+因为如果单片机是client客户端的话，你可以把它理解为是客人，需要向电脑发出请求，电脑同意了之后才能建立连接。  
+而server相当于是主人，在电脑端向它发送请求，它接收到了之后就可以建立连接，互相发送数据了。  
+
+LWIP有3种编程接口，分别为：RAW，NETCONN和SOCKET。 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
